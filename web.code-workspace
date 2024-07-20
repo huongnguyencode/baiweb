@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../image"
+	},
+	{
+		"path": "../../dev"
+	},
+	{
+		"path": "../../hoc"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "web"
+  }
+}

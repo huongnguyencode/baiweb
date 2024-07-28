@@ -3,83 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Social Media Icons</title>
+    <link rel="stylesheet" href="huong1.css" />
   </head>
   <body>
-    <!-- bai3 
-     1 nhung iframe 
-     2 the semantic
-     3 forms 
-     4 thuoc tinh html 5 co ma html4 ko co  -->
-    <!-- 1 iframe -->
-    <!-- <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/4SB71XqtK3w?si=KzmRoR-UwUh3JRmr"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-    ></iframe>
-    <iframe
-      src="https://www.facebook.com/"
-      frameborder="0"
-      width="450"
-      height="450"
-    ></iframe>
-    / -->
-    <!-- co goole va facebook ko co quyen truy cap -->
-    <!-- <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1873.4381061260342!2d106.09874443826331!3d20.097460839867654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31366d339daf07a1%3A0x4284d1a81f80a48b!2zQ-G6p3UgxJDhu5NuZyBIxrDhu5tuZw!5e0!3m2!1sen!2s!4v1719790720349!5m2!1sen!2s"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-      name="huongdan"
-    ></iframe>
-    <p>
-      <a
-        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1873.4381061260342!2d106.09874443826331!3d20.097460839867654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31366d339daf07a1%3A0x4284d1a81f80a48b!2zQ-G6p3UgxJDhu5NuZyBIxrDhu5tuZw!5e0!3m2!1sen!2s!4v1719790720349!5m2!1sen!2s"
-        target="huongdan"
-      >
-        huong dan chi duong
-      </a>
-    </p> -->
-    <!-- ta thay co the thay the iframe bang ca the binh thuong 
-      cac trang web nhu goolge vaf facebook ko chap nhan connet -->
-    <!-- 2 the semantic -->
-    <!-- ko dung semantic -->
-    <!-- <div class="header">header</div>
-    <div class="sidebar">sidebar</div>
-    <div class="content">
-      content
-      <div class="post">post</div>
-      <div class="post">post</div>
-    </div>
-
-    <div class="footer">footer</div> -->
-    <!-- 3 forms -->
-    <!-- method co get va post 
-     get ko dung de gui bao mat 
-     han che ki tu 
-     post gui bao mat 
-     ko han che ki tu
-      -->
-    <!-- autocomplete tu dong dien
-     novalidate ko can chinh xac nhu email
-       -->
-    <form
-      action="https://www.w3schools.com/action_page.php"
-      target="_blank"
-      method="get"
-      autocomplete="on"
-      novalidate
-    >
-      <input name="ho_vate" type="submit" value="gui" />
-      <input type="email" name="" id="" />
-    </form>
+    <div class="me">
+      <div class="parest">
+        <div class="setion-1">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="announcement">FREE SHIPPING THIS WEEK ORDER OVER - $55</div>
+        <div class="dieu-huong">
+          <form
+            action="https://www.w3schools.com/action_page.php"
+            method="post"
+          >
+            <label for="item1">USD $</label>
+            <select name="item1" id="item1" size="1">
+              <option value="vietnam">vn</option>
+              <option value="dola">dola</option>
+              <option value="bang-anh">bang-anh</option>
+              <option value="ero">ero</option>
+            </select>
+            <label for="item2">english</label>
+            <select name="item2" id="item2" size="1">
+              <option value="vn">vn</option>
+              <option value="english">english</option>
+              <option value="brazil">brazil</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <hr />
+      <div class="parest-1">
+        <div class="anon">ANON</div>
+        <div class="search-bar">
+          <input
+            width="100px"
+            type="text"
+            placeholder="Enter your product name..."
+          />
+          <button><i class="fa fa-search"></i></button>
+        </div>
+        <div class="user-options">
+          <a href="#"><i class="fa fa-user"></i></a>
+          <a href="#"><i class="fa fa-heart"></i></a>
+          <a href="#"><i class="fa fa-shopping-bag"></i></a>
+        </div>
+      </div>
+      <hr />
+      <div class="parest-3">
+        <div class="main-nav">
+          <ul>
+            <li>HOME</li>
+            <li>CATEGORIES</li>
+            <li>MEN'S</li>
+            <li>WOMEN'S</li>
+            <li>JEWELRY</li>
+            <li>PERFUME</li>
+            <li>BLOG</li>
+            <li>HOT OFFERS</li>
+          </ul>
+        </div>
+      
+      <div class="banner">
+        <div class="banner-content">
+          <h3>Trending Item</h3>
+          <h1>WOMEN'S LATEST FASHION SALE</h1>
+          <p>starting at <span>$20.00</span></p>
+          <button>SHOP NOW</button>
+        </div>
+        <div class="banner-image">
+          <img
+            width="1500px"
+            height=""
+            src="https://tse4.mm.bing.net/th?id=OIP.VkyBthhSZXltVvQVx_rsJgHaDW&pid=Api&P=0&h=220"
+            alt="asd"
+          />
+        </div>
+      </div>
+      </div>
   </body>
 </html>
